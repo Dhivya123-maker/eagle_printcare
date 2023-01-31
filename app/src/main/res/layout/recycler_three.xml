@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/bend_two"
+        android:elevation="5dp"
+        android:padding="10dp">
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="50dp"-->
+        <!--            android:layout_height="50dp"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:layout_marginStart="20dp"-->
+        <!--            android:gravity="center"-->
+        <!--            android:background="@drawable/round_orange">-->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/arrow_img"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/logo3"
+            app:shapeAppearanceOverlay="@style/rounded_corner" />
+
+
+        <!--        </LinearLayout>-->
+
+
+        <LinearLayout
+            android:id="@+id/div1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toRightOf="@+id/arrow_img"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/project_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F4941C"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/quantity_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textColor="#0a4066"
+                android:textSize="12dp"
+
+                >
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Current stage: "
+                    android:textColor="#F4941C"
+                    android:textSize="12dp"
+
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/current_stage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:textColor="#0a4066"
+                    android:textSize="12dp"
+
+                    >
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Current user: "
+                    android:textColor="#F4941C"
+                    android:textSize="12dp"
+
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/current_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:textColor="#0a4066"
+                    android:textSize="12dp"
+
+                    >
+
+                </TextView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Status: "
+                    android:textColor="#F4941C"
+                    android:textSize="12dp"
+
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:textColor="#0a4066"
+                    android:textSize="12dp"
+
+                    >
+
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!--        <Button-->
+        <!--            android:id="@+id/pending_btn"-->
+        <!--            android:layout_width="100dp"-->
+        <!--            android:layout_height="40dp"-->
+        <!--            android:layout_alignParentEnd="true"-->
+        <!--            android:layout_centerVertical="true"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:background="@drawable/bend_two"-->
+        <!--            android:backgroundTint="@color/purple_500"-->
+        <!--            android:elevation="2dp"-->
+        <!--            android:letterSpacing="0.01"-->
+        <!--            android:text="pending"-->
+        <!--            android:textAllCaps="false"-->
+        <!--            android:textColor="@color/white"-->
+        <!--            android:textSize="12dp">-->
+
+        <!--        </Button>-->
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
